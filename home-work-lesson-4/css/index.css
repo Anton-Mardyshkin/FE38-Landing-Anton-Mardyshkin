@@ -10,17 +10,16 @@
 .container {
   max-width: 1170px;
   margin: auto;
-  padding: 0 15px;
-  background: #F5F5F5;
+  padding: 100px 0;
 }
 .title {
-    font-size: 36px;
-    text-transform: uppercase;
-    text-align: center;
-    margin-bottom: 34px;
-    color: #212121;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
+  font-size: 36px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 34px;
+  color: #212121;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
 }
 .line {
   width: 67px;
