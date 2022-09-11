@@ -1,6 +1,7 @@
 @import url('../css/cdn.css');
 @import url('../css/awesome.css');
 @import url('../css/list.css');
+
 * {
     margin: 0;
     padding: 0;
@@ -8,11 +9,13 @@
     list-style: none;
     text-decoration: none;
 }
+
 .container {
     max-width: 1170px;
     margin: auto;
     padding: 100px 0;
 }
+
 .wrap {
     display: flex;
     justify-content: space-between;
@@ -20,6 +23,7 @@
     margin-top: 68px;
     flex-wrap: wrap;
 }
+
 .title {
     font-size: 36px;
     text-transform: uppercase;
@@ -29,6 +33,7 @@
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
 }
+
 .line {
     width: 67px;
     height: 2px;
