@@ -1,0 +1,73 @@
+.customers {
+    padding: 80px 0;
+    display: block;
+
+}
+
+.description {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin: 36px 0;
+}
+
+.customers-item {
+    margin: 0 15px;
+    width: 298px;
+}
+
+.text-customers {
+    line-height: 19px;
+    border-radius: 7px;
+    background-color: #e2e2e2;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    color: #86878b;
+    text-align: center;
+    margin-bottom: 22px;
+    padding: 9px 20px 5px;
+    position: relative;
+}
+
+.text-customers::after {
+    content: '';
+    top: 100%;
+    position: absolute;
+    left: 40px;
+    border: 15px solid transparent;
+    border-top: 15px solid #e2e2e2;
+
+}
+
+.customers-card {
+    display: flex;
+    justify-content: space-around;
+}
+
+.customers-img {
+    box-sizing: border-box;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    overflow: hidden;
+}
+
+.customers-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: right;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 14px;
+}
