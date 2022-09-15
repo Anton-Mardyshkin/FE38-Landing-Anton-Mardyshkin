@@ -44,6 +44,7 @@
 .customers-card {
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 
 .customers-img {
@@ -62,12 +63,22 @@
 
 }
 
-.name {
+.customers-name {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     text-align: right;
+}
+
+.name {
     font-family: 'Open Sans';
     font-weight: 700;
+    font-size: 20px;
+    color: #333333;
+}
+
+.post {
+    font-family: 'Open Sans';
+    font-weight: 400;
     font-size: 14px;
+    color: #86878B;
 }
