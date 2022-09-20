@@ -1,11 +1,43 @@
-.container-axure {
-    max-width: 1742px;
+.axure {
+    width: auto;
     margin: auto;
-    padding: 0 15px;
+    padding: 58px 0;
     background-image: url('../img/background 1.png');
     background-repeat: no-repeat;
-    background-position: center;   
-    background-size: cover;        
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.axure::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/mask.png);
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+
+.title-axure {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "raleway";
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: rgba(255, 255, 255, 1);
+    font-style: normal;
+}
+
+.title-axure::after {
+    content: "";
+    width: 67px;
+    height: 2px;
+    display: block;
+    background-color: #FFFFFF;
+    margin: 34px auto;
+
 }
 
 .wrap-axure {
@@ -14,7 +46,7 @@
     margin: 34px auto 57px;
 }
 
-.text-axure {      
+.text-axure {
     font-family: 'Raleway';
     font-weight: 300;
     font-size: 16px;
@@ -26,3 +58,7 @@
 
 }
 
+.href {
+    box-sizing: border-box;
+    border: 1px solid #FFFFFF;
+}
