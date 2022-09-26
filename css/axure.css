@@ -1,6 +1,4 @@
 .axure {
-    width: auto;
-    margin: auto;
     padding: 58px 0;
     background-image: url('../img/background 1.png');
     background-repeat: no-repeat;
@@ -14,9 +12,13 @@
     content: "";
     width: 100%;
     height: 100%;
-    background-image: url(../img/mask.png);
+    display: block;
     background-repeat: no-repeat;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
     z-index: 2;
+    left: 0;
+    top: 0;
 }
 
 .title-axure {
@@ -37,28 +39,34 @@
     display: block;
     background-color: #FFFFFF;
     margin: 34px auto;
-
 }
 
-.wrap-axure {
-    display: flex;
-    justify-content: center;
-    margin: 34px auto 57px;
-}
-
-.text-axure {
+.text-axure p {
     font-family: 'Raleway';
     font-weight: 300;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-    padding: 10px 20px 10px;
-    display: block;
+    color: rgba(255, 255, 255, 0.8);
     width: 779px;
-
+    margin: 34px auto 57px;
 }
 
-.href {
-    box-sizing: border-box;
+.link-axure {
+    width: 135px;
+    height: 42px;
+    margin: 57px auto 38px;
     border: 1px solid #FFFFFF;
+    cursor: pointer;
+}
+
+.link-axure a {
+    display: block;
+    font-size: 15px;
+    font-family: "Open Sans";
+    font-weight: 600;
+    line-height: 20px;
+    text-align: center;
+    margin: 11px 0;
+    color: #FFFFFF;
 }
